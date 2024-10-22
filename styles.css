@@ -1,0 +1,77 @@
+#map {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 15px #000;
+  margin-bottom: 5rem;
+}
+
+body {
+  background-color: #080808 !important;
+}
+
+nav {
+  padding: 3rem 0;
+}
+
+nav h3 {
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 1rem;
+  color: #fff;
+}
+
+label {
+  position: relative;
+  width: 500px;
+}
+
+label svg {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+}
+
+p {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+span {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container-info {
+  margin-top: 5rem;
+  width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  #map {
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+    box-shadow: 5px 10px 15px #000;
+  }
+
+  .container-info {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+  }
+}
