@@ -37,7 +37,6 @@ label svg {
   position: absolute;
   right: 10px;
   top: 20px;
-  cursor: pointer;
 }
 
 p {
@@ -56,6 +55,14 @@ span {
 .container-info {
   margin-top: 5rem;
   width: 500px;
+}
+
+footer p {
+  font-size: 12px;
+  text-transform: none;
+  text-align: center;
+  margin: 4rem;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 600px) {
